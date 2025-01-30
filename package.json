@@ -1,0 +1,19 @@
+{
+  "name": "live_streaming",
+  "version": "1.0.0",
+  "description": "landing page",
+  "source": "index.html",
+  "scripts": {
+    "sass:watch": "sass --style=expanded --watch styles:dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/AlexanderTirsky/landing_live_streaming.git)"
+  },
+  "author": "AlexanderTirsky",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.13.3",
+    "sass": "^1.83.4"
+  }
+}
