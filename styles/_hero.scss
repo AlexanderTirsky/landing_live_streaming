@@ -1,0 +1,23 @@
+@use 'variables' as v;
+@use 'mixins' as m;
+@use 'placeholders';
+
+.hero {
+    position: relative;
+    max-width: 1260px;
+    height: 830px;
+    margin: 0 auto;
+    padding: 140px 0 0 0;
+    background: url(../assets/img/cloud_alpha.png) center/contain no-repeat;
+
+    &__content {
+        position: relative;
+        width: 900px;
+        margin: 0 auto;
+
+        .hero__title {
+
+        }
+    }
+
+}
